@@ -1,0 +1,289 @@
+.dx-g-bs4-table-cell {
+  border-right: 1px solid rgb(207, 207, 207);
+  padding: 14px !important;
+  /* padding: 0.25rem!important; */
+  font-size: 14px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 14px;
+  background: #f7f7fa;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#app {
+  background-color: #fafafa;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+p,
+label {
+  line-height: 1.5em;
+}
+
+.rhap_container {
+  min-width: 250px;
+  box-shadow: none;
+  padding: 15px;
+  background: transparent;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.table.table-xs td {
+  padding: 0.1rem 0.5rem;
+  background: #fcfdfe;
+  font-size: 13px;
+}
+
+.table.table-xs {
+  border: 1px solid rgb(189, 195, 199);
+}
+
+.grid-wrapper {
+  border: 1px solid rgb(189, 195, 199);
+  .table.table-styled {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #dee2e6;
+    td {
+      background: #fff;
+    }
+  }
+}
+
+.table.table-styled,
+.table-styled-virtual-root .dx-g-bs4-table-head {
+  min-width: 100% !important;
+  line-height: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  border-radius: 3px;
+
+  th {
+    padding: 0 8px;
+    background: rgb(245, 247, 247);
+    color: rgba(0, 0, 0, 0.54);
+    border-width: 0;
+  }
+
+  td {
+    padding: 0 8px;
+    white-space: nowrap;
+    border-top: 1px solid #dee2e6;
+  }
+}
+
+.table.table-styled {
+  border: 1px solid rgb(189, 195, 199);
+}
+
+.table-styled-virtual-root .dx-g-bs4-table-head {
+  th {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+
+.table-styled-virtual-root .table-styled {
+  td {
+    border-bottom: 1px solid #dee2e6;
+    border-top: 0;
+  }
+}
+
+.table-styled-virtual-root .dx-g-bs4-table-head {
+  margin-bottom: 0;
+}
+
+.table-styled-virtual-root .table-sm {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.card-footer.epmty-panel {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+.cell-badges {
+  line-height: 15px;
+  padding: 5px 8px !important;
+}
+
+.__react_component_tooltip.show {
+  z-index: 9999;
+}
+
+.queue-dropdown-150 {
+  width: 150px;
+}
+
+.queue-dropdown-150 button.dropdown-toggle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.queue-dropdown-150 button.dropdown-toggle:after {
+  position: absolute;
+  left: 134px;
+  top: 11px;
+  margin-left: 0;
+}
+
+.responsive-table-with-overflow .table-responsive td {
+  overflow: visible !important;
+}
+
+.small-dropdown-button button {
+  padding: 0px 5px !important;
+  line-height: 14px !important;
+  border-radius: 2px !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.rs-sidebar .rs-nav .rs-dropdown .rs-dropdown-item a {
+  font-size: 14px;
+}
+
+.rs-nav-item > .rs-nav-item-content {
+  color: #18bc9c;
+}
+
+.rs-sidenav-default.rs-sidenav-collapse-in
+  .rs-dropdown-menu
+  > li
+  > .rs-dropdown-item-content {
+  color: #18bc9c;
+}
+
+.fade {
+  opacity: 1;
+}
+
+.rs-picker-menu.fade:not(.show) {
+  opacity: 1 !important;
+}
+
+.rs-modal-backdrop.in {
+  opacity: 0.3 !important;
+}
+
+.rs-table-row.compact .rs-table-cell-content {
+  padding: 7px 0;
+}
+
+.rs-timeline-item:not(:last-child) .rs-timeline-item-content {
+  padding-bottom: 5px;
+}
+
+.rs-picker-menu.rs-picker-select-menu {
+  z-index: 9999;
+}
+
+.rs-timeline:not(.rs-timeline-align-left)
+  .rs-timeline-item:nth-child(even)
+  .rs-timeline-item-content
+  .topics-content {
+  justify-content: flex-end;
+}
+
+.rs-timeline-item:nth-child(odd) .rs-timeline-item-content .topics-content {
+  justify-content: flex-start;
+}
+
+.react-flow__node {
+  overflow: hidden;
+  cursor: default !important;
+}
+
+.rs-steps-small .rs-steps-item-description {
+  margin-top: 0px;
+}
+
+.custom-timeline .rs-timeline-with-time .rs-timeline-item-time {
+  flex: 1 0 30%;
+}
+
+.custom-timeline .rs-timeline-with-time .rs-timeline-item-content {
+  flex: 1 0 70%;
+}
+
+.custom-timeline .rs-timeline-with-time .rs-timeline-item-dot {
+  left: calc(30% - 5px);
+}
+
+.custom-timeline .rs-timeline-with-time .rs-timeline-item-tail {
+  left: calc(30% - 1px);
+}
+
+.react-flow__node {
+  opacity: 1 !important;
+}
+
+.react-datepicker-popper {
+  z-index: 999;
+}
+
+.rs-input-560 {
+  width: 560px;
+}
+
+.table tr.table-light-yellow {
+  background-color: #ffffcf;
+}
+
+.table tr.table-light-green {
+  background-color: #f0ffbf;
+}
+
+.rs-picker-menu .rs-tag,
+.rs-picker-tree .rs-tag {
+  padding: 0 5px;
+}
+
+.rs-picker-menu.rs-picker-select-menu,
+.rs-picker-menu.rs-picker-check-menu,
+.rs-picker-tree-menu {
+  z-index: 9999;
+}
+
+.table-styled .oi-chevron-right {
+}
+
+.script-canvas .react-flow__handle {
+  width: 8px;
+  height: 8px;
+}
+
+.grouping-grid .dx-g-bs4-fixed-group-cell strong {
+  display: none;
+}
+
+.text-blue {
+  color: #3498db;
+}
+
+.table.table-styled td .details {
+  white-space: normal;
+}
+
+.rs-tooltip.fade.in {
+  z-index: 9999;
+  opacity: 1;
+}
